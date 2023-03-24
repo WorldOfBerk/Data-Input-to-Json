@@ -3,4 +3,4 @@ project(DataConverter C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(DataConverter main.c)
+add_executable(DataConverter main.c json_writer.c json_writer.h inp_validator.c inp_validator.h)
