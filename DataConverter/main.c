@@ -26,7 +26,7 @@ int main() {
     //Writes converted to data.json
     write_json_file("data.json", convert_to_json_string);
 
-    printf("Data successfully converted to JSON format!");
+    puts("Data successfully converted to JSON format!");
 
     return 0;
 }
