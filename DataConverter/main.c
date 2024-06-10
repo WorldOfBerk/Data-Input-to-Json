@@ -24,7 +24,7 @@ int main() {
             name, surname, phoneNumber, gender);
 
     //Writes converted to data.json
-    write_json_file("data.json", convert_to_json_string);
+    write_json_file("written_data.json", convert_to_json_string);
 
     puts("Data successfully converted to JSON format!");
 
