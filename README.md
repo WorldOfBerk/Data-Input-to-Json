@@ -16,9 +16,7 @@ To get started:
 3. **Build the Project:** Once the project is opened in your IDE, build the project to compile the source code. This will generate the executable file required for running the program.
 ![builded](DataConverter/Images/ordnen.png)
 4. **Run the Executable File:** After successfully building the project, navigate to the folder containing the executable file and run it. You can typically run it by double-clicking the executable file or executing it from the terminal/command prompt.
-<br>
 ![exe](DataConverter/Images/exefile.png)
-<br>
 5. **Input Data:** Follow the instructions provided by the program to input your data.
 ![console](DataConverter/Images/console.png)
 6. **Check JSON File:** Once the program has processed your input data, check the generated JSON file named ```written_data.json```. This file should contain the converted data in JSON format. You can open and inspect the JSON file using a text editor or any JSON viewer tool.
