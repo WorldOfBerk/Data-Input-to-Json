@@ -18,10 +18,10 @@ To get started:
 ![exe](DataConverter/Images/exefile.png)
 
 7. **Input Data:** Follow the instructions provided by the program to input your data.
-![console](DataConverter/Images/)
+![console](DataConverter/Images/console.png)
 
 9. **Check JSON File:** Once the program has processed your input data, check the generated JSON file named ```written_data.json```. This file should contain the converted data in JSON format. You can open and inspect the JSON file using a text editor or any JSON viewer tool.
-![json](DataConverter/Images/)
+![json](DataConverter/Images/jsonpreview.png)
 <br>
 <br>
 By following these steps, you can effectively use the "Data-Input-to-Json" program to convert your input data into JSON format.
