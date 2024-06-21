@@ -20,8 +20,10 @@ int main() {
 
     getString("Enter your gender as M-m or F-f > ", gender, maximum_length, verification_gender);
 
-    sprintf(convert_to_json_string, "{\n\t\"Name\": \"%s\",\n\t\"Surname\": \"%s\",\n\t\"Phone Number\": \"%s\",\n\t\"Gender\": \"%s\"\n}",
-            name, surname, phoneNumber, gender);
+    snprintf(convert_to_json_string, sizeof(convert_to_json_string),
+             "{\n\t\"Name\": \"%s\",\n\t\"Surname\": \"%s\",\n\t\"Phone Number\": \"%s\",\n\t\"Gender\": \"%s\"\n}",
+             name, surname, phoneNumber, gender);
+
 
     //Writes converted to data.json
     write_json_file("written_data.json", convert_to_json_string);
