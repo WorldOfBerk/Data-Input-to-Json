@@ -16,7 +16,7 @@ int main() {
 
     getString("Enter your surname > ", surname, maximum_length, validator_not_Empty);
 
-    getString("Enter your phone number (start with + and must be 11 digits length) > ", phoneNumber, maximum_length, verification_phoneNumber);
+    getString("Enter phone number (+XXXXXXXXXXXX): ", phoneNumber, maximum_length, verification_phoneNumber);
 
     getString("Enter your gender as M-m or F-f > ", gender, maximum_length, verification_gender);
 

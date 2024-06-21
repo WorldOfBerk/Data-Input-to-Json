@@ -3,7 +3,7 @@
 
 void write_json_file(char *file_name, char *json_string) {
     FILE *fp;
-    fp = fopen(file_name, "w");
+    fp = fopen(file_name, "a"); 
     fprintf(fp, "%s\n", json_string);
     fclose(fp);
 }
