@@ -42,7 +42,7 @@ int verification_phoneNumber(char *string){
     if(strlen(string) == 0){
         return 0;
     }
-    if(string[0] != '+' || strlen(string) != 11 || !is_digit(string + 1)){
+    if(string[0] != '+' || strlen(string) != 13 || !is_digit(string + 1)){
         return 0;
     }
     return 1;
